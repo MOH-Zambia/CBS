@@ -1,0 +1,245 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="83084761-f4ac-4a1e-8e59-e980cc8fe270" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CBS_DW</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact On Art</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="efc5801d-54f4-41aa-b42a-f8709f228224">
+          <ID>Fact On Art</ID>
+          <Name>Fact On Art</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2f1adbe4-6d80-4e69-a55e-40b1d8f3b9fc">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactOnArt</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Follow Up Viral Load</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a3f4c178-0288-428d-acd7-f254e4a13de2">
+          <ID>Fact Follow Up Viral Load</ID>
+          <Name>Fact Follow Up Viral Load</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2f33e675-896c-42ef-be44-a1d57dd47be2">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactFollowUpViralLoad</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Death</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="03441ec7-be02-49c4-b653-f465092872f1">
+          <ID>Fact Death</ID>
+          <Name>Fact Death</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a3465f9e-f745-4072-b96d-f309c8d180aa">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactDeath</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Visit</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b89cd78e-f092-4d76-baea-c7982e018e37">
+          <ID>Fact Visit</ID>
+          <Name>Fact Visit</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0db79d91-e65c-4c43-842b-4eaf8e39b6cb">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactVisit</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Maternal History</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9ad17e61-00b1-4ae5-a801-5a6528d1ea41">
+          <ID>Fact Maternal History</ID>
+          <Name>Fact Maternal History</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5941aa0a-dbab-4556-bfad-c946bc317e25">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactMaternalHistory</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Vitals</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ad8cb69d-dcc1-4151-882c-b6609f27fb15">
+          <ID>Fact Vitals</ID>
+          <Name>Fact Vitals</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3ccea277-dffe-4e73-aaff-8338562174d0">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactVitals</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Initial CD4</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7feddb76-4a52-4919-9225-b1b064423e4b">
+          <ID>Fact Initial CD4</ID>
+          <Name>Fact Initial CD4</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="aa4db07d-0e5e-46db-970b-c0ad782d52ef">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactInitialCD4</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Initial Viral Load</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="68cc7173-b935-437e-8d0f-e6add0d8cb06">
+          <ID>Fact Initial Viral Load</ID>
+          <Name>Fact Initial Viral Load</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2e942580-7a90-4a99-a8c1-fdc04b1ce1b1">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactInitialViralLoad</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Transfer In</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="03d64ae2-adda-4a2d-83ae-55276777ccb4">
+          <ID>Fact Transfer In</ID>
+          <Name>Fact Transfer In</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f6e9c22b-96b1-4763-8b59-9d6b7812bfa3">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactTransferIn</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Follow Up CD4</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="dc9bb863-21f2-4c38-bc40-7e5e39454fb4">
+          <ID>Fact Follow Up CD4</ID>
+          <Name>Fact Follow Up CD4</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8964425a-749e-4563-a66e-0b8a10329384">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactFollowUpCD4</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Who Staging</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2a2dfed9-a04b-48b5-afdc-a9f13f5c3aac">
+          <ID>Fact Who Staging</ID>
+          <Name>Fact Who Staging</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c29fd793-ea07-486a-a2a4-f0d26966f27b">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactWhoStaging</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>v Dim Client</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="10b3d279-1a50-4148-a633-21138612a032">
+          <ID>v Dim Client</ID>
+          <Name>v Dim Client</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="198e32c1-1a0a-4087-9537-e092352dc159">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_vDimClient</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
