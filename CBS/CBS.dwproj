@@ -24,28 +24,28 @@
       <FullPath>Dim Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>v Dim Client.dim</Name>
-      <FullPath>v Dim Client.dim</FullPath>
+      <Name>Dim Client.dim</Name>
+      <FullPath>Dim Client.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Place Of Death.dim</Name>
+      <FullPath>Dim Place Of Death.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Facility.dim</Name>
       <FullPath>Dim Facility.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Client Type.dim</Name>
-      <FullPath>Dim Client Type.dim</FullPath>
+      <Name>Dim Pregnancy Outcome.dim</Name>
+      <FullPath>Dim Pregnancy Outcome.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Service Code.dim</Name>
+      <FullPath>Dim Service Code.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim WHO Stage.dim</Name>
       <FullPath>Dim WHO Stage.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Age Category.dim</Name>
-      <FullPath>Dim Age Category.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Gender.dim</Name>
-      <FullPath>Dim Gender.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

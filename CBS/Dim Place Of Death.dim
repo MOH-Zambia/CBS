@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="daff5d58-d5fb-4f0c-8339-769e7e617539" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Dim WHO Stage</ID>
-  <Name>Dim WHO Stage</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f3bc613e-fcd5-4d06-aa92-ff3ddcf5532b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Place Of Death</ID>
+  <Name>Dim Place Of Death</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,28 +42,28 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="594ac6c2-f513-48b1-b9a2-5ec70900ee86">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cfac0b70-8d73-45ff-9af7-998cb17ce26e">
     <DataSourceViewID>CBS_DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="713d1c47-6490-4542-9d62-296d43e5707e">
+  <ErrorConfiguration dwd:design-time-name="ddb8f35a-0d45-46a8-8010-b39e83063703">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="bf349651-a1a8-4d7b-8465-33aa8a2391ae">
-      <ID>WHO Stage Key</ID>
-      <Name>WHO Stage Key</Name>
+    <Attribute dwd:design-time-name="22e1c66e-77d3-4058-b0aa-e5a1c3d474ef">
+      <ID>Place Of Death Key</ID>
+      <Name>Place Of Death Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fa40c732-12db-4577-b93e-c5d937fed318">
+        <KeyColumn dwd:design-time-name="b0a8185c-b085-4433-8782-e5112ca53f86">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f6e11f9c-e384-4e27-bd9b-8eb1ea62143c">
-            <TableID>dbo_DimWHOStage</TableID>
-            <ColumnID>WHOStageKey</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a95b31a5-9815-4954-91c5-e1404db7a179">
+            <TableID>dbo_DimPlaceOfDeath</TableID>
+            <ColumnID>PlaceOfDeathKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
