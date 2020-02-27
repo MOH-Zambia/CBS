@@ -301,5 +301,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Client</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="93c242d3-5de4-4dbf-bc65-4171fd3422f1">
+          <ID>Dim Client</ID>
+          <Name>Dim Client</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="30fcbe84-4b3c-4da1-a8cb-d401d4ce51a0">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_DimClient</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

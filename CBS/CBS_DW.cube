@@ -445,7 +445,7 @@
               <point x="123600" y="59840" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="62938" top="38949" logicalid="35" controlid="35" masterid="0" hint1="0" hint2="0" width="59031" height="22991" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="62938" top="37849" logicalid="35" controlid="35" masterid="0" hint1="0" hint2="0" width="59031" height="24091" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -458,9 +458,9 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="27" destid="2" sourceattachpoint="31" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="63238" y="39348" />
-              <point x="92453" y="39348" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="27" destid="2" sourceattachpoint="27" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="63238" y="38248" />
+              <point x="92453" y="38248" />
               <point x="92453" y="61640" />
               <point x="121669" y="61640" />
             </connector>
@@ -1571,7 +1571,7 @@
               <point x="59097" y="38798" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="62938" top="37849" logicalid="92" controlid="92" masterid="0" hint1="0" hint2="0" width="52616" height="13397" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="62938" top="38399" logicalid="92" controlid="92" masterid="0" hint1="0" hint2="0" width="52616" height="12847" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1584,9 +1584,9 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="27" destid="26" sourceattachpoint="27" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="63238" y="38248" />
-              <point x="89246" y="38248" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="27" destid="26" sourceattachpoint="29" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="63238" y="38798" />
+              <point x="89246" y="38798" />
               <point x="89246" y="50946" />
               <point x="115254" y="50946" />
             </connector>
@@ -2708,7 +2708,116 @@
         </Attribute>
       </Attributes>
     </Dimension>
+    <Dimension dwd:design-time-name="5909e4aa-ba14-4dc0-84c1-ca130df5a0ec">
+      <ID>LAG Assay Test Date</ID>
+      <Name>LAG Assay Test Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0d54a2cc-e95c-4452-accc-016550957030">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d925ed60-236e-438a-b197-fbe7af674bf3">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3342aed1-1979-4d60-aaf9-f9eb553a69b5">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70bab91a-35ae-43b2-884f-2a13469b68e3">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c01737bb-71dd-4af7-b256-a221fe280577">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f068911e-d1b1-4eee-b6c3-b520cef43c4d">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b27a8c9e-5f6a-4cd3-be6f-bdc102becca5">
+      <ID>Serological Test Date</ID>
+      <Name>Serological Test Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b5c96f18-ebda-478b-86de-63eab5a95617">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c710ed9f-36b3-4996-9dd0-fafb3538635d">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03ce0110-f34d-48a1-934f-621512991782">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="827bd4a6-d9a3-429d-a31e-25df139799e4">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0434554e-0d5e-4e3a-b628-7b0344ecaa8f">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="7306c961-4b79-47a2-84a2-40c5d2308a37">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c4bcc5ad-a977-4349-9c35-4020fe4a153f">
+      <ID>Enrollment Date</ID>
+      <Name>Enrollment Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f26c66f4-f5fc-4334-9379-8f707cceae67">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9b91b613-d413-4c7a-86b4-31f42f13113b">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ba1dce55-a91b-41ee-9a7d-fd06020d0f71">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a456e77c-53ba-46e7-ad84-7f85fc48d471">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="089b153e-60a8-4521-bc6f-ba47a073a909">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5ea0d531-4c63-4277-a30b-18cbc4125113">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="286a1995-14c1-471d-963a-4b4ce9590b15">
+      <ID>Date Of Birth</ID>
+      <Name>Date Of Birth</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d53de563-515d-4c14-a2ed-afb1b8f1ee65">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d44e15b-8450-4608-810b-9d8d96b72046">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b8a43ee-dec8-425a-82c8-840d3db5b9e2">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f840326-c16e-4234-8cc8-a9468ccdbfde">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e1f8119-f5db-4a93-93c5-463280aa2ee3">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a5a358b7-2d78-42ae-a2a1-147c307e6c14">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
   </Dimensions>
+  <DefaultMeasure>[Measures].[Dim Client Count]</DefaultMeasure>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="1fa2030f-171a-4dc0-aafb-62022ba5ecb7">
       <ID>Fact Co Morbid Condition</ID>
@@ -5258,6 +5367,148 @@
           <IntermediateGranularityAttributeID>Facility GUID</IntermediateGranularityAttributeID>
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="05793282-bb1f-4716-8a7e-8c560850023b">
+      <ID>Dim Client</ID>
+      <Name>Dim Client</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="203d06b1-8ad8-4cf2-8cd6-6c113419ac81">
+          <ID>Dim Client Count</ID>
+          <Name>Dim Client Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="268a8c32-3dd7-4449-b1d4-0b3f32cf6384">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="590f6bd5-b8ac-456e-8a18-3e83354b7c44">
+              <TableID>dbo_DimClient</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="84a14139-b5ce-4c26-8d6c-bc4f4e9103ad">
+          <CubeDimensionID>Dim Client</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e9e81cd2-9fd9-461a-9fff-6150b3e75cba">
+              <AttributeID>Patient GUID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="870b34fe-2a32-44ff-8133-f54202404405">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6c411481-b05c-4233-b92f-71c5a0def1f9">
+                    <TableID>dbo_DimClient</TableID>
+                    <ColumnID>PatientGUID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c77d6470-6063-4af6-a7fe-4d0665c2ec67">
+          <CubeDimensionID>LAG Assay Test Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5741dfe1-a4ca-4153-acc2-54d426ae3d37">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="423748b7-ed32-4cb8-a275-f6a9c72456d0">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e6ffb5d8-4752-440d-b311-801bf5eb4994">
+                    <TableID>dbo_DimClient</TableID>
+                    <ColumnID>LAGAssayTestDateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e33fed99-322c-46ce-93cc-e9b44515c626">
+          <CubeDimensionID>Serological Test Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6871de09-650c-42fa-8531-d4895aa907e8">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9c8dcfb7-1e81-4bfb-b429-1f2ed5464a3e">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab4475e2-71b9-4d9a-81e3-57e511ba12d4">
+                    <TableID>dbo_DimClient</TableID>
+                    <ColumnID>SerologicalTestDateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c926943e-1f12-4ff9-929b-94d8f806163b">
+          <CubeDimensionID>Enrollment Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="73662566-9bd4-499a-a8d3-8cca8cede08d">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e6d10170-8385-493b-aac5-452472413cf4">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d2455666-96df-40de-8343-c35d647f8788">
+                    <TableID>dbo_DimClient</TableID>
+                    <ColumnID>EnrollmentDateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7d6e88f2-2707-4af9-822e-348cfe76f82d">
+          <CubeDimensionID>Date Of Birth</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="997f86c7-7f49-417d-b364-ff50ba5a0686">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1b28f77c-e94e-4253-bf3a-2742ba6d9aec">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9244003b-d411-42db-9882-70569644ab25">
+                    <TableID>dbo_DimClient</TableID>
+                    <ColumnID>DateOfBirthKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ab9d8c6b-6094-4bb4-943b-f1061cdfa0b8">
+          <CubeDimensionID>Dim Facility</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b1cbe40c-c30e-4f80-9ee8-3ac595ad0835">
+              <AttributeID>Facility GUID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c396bed0-de0b-4fa6-aa14-894023368cb5">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="faba2958-1428-40fa-bde5-c36aea0f7dc8">
+                    <TableID>dbo_DimClient</TableID>
+                    <ColumnID>FacilityGUID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
         </Dimension>
       </Dimensions>
       <Partitions />
