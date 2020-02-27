@@ -1,17 +1,37 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e9b6001c-de75-4c37-9e90-fe90de51317a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="89ec3485-faa9-48ee-8cc3-6fb28ba4568f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>CBS_DW</ID>
   <MeasureGroups>
     <MeasureGroup>
+      <ID>Fact Co Morbid Condition</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="58473db8-68e3-412e-965a-c9b9f88b5d28">
+          <ID>Fact Co Morbid Condition</ID>
+          <Name>Fact Co Morbid Condition</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7c70c936-3155-4c7f-91a0-8198f51bcee0">
+            <DataSourceViewID>CBS_DW</DataSourceViewID>
+            <TableID>dbo_FactCoMorbidCondition</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
       <ID>Fact Death</ID>
       <Partitions>
-        <Partition dwd:design-time-name="3c42d9ac-502d-42b4-a14f-33752d96c605">
+        <Partition dwd:design-time-name="3900455a-5632-4875-847c-7f66e9027f83">
           <ID>Fact Death</ID>
           <Name>Fact Death</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d51e23de-0c52-449a-9572-c8a7c5d21a8d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4324d285-4a9e-4c90-bbab-92b2e4d05f53">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactDeath</TableID>
           </Source>
@@ -24,14 +44,14 @@
     <MeasureGroup>
       <ID>Fact Follow Up CD4</ID>
       <Partitions>
-        <Partition dwd:design-time-name="6cd40a0f-47ea-41f7-a1b0-b3f9189964ff">
+        <Partition dwd:design-time-name="6bf2ade1-2b39-4d61-a602-d68caf4af71f">
           <ID>Fact Follow Up CD4</ID>
           <Name>Fact Follow Up CD4</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="49a23648-ed7b-4e8d-91f3-ff3c24c9aeef">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e972fb17-0de1-4319-871a-2c4d9ce9b5dc">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactFollowUpCD4</TableID>
           </Source>
@@ -44,14 +64,14 @@
     <MeasureGroup>
       <ID>Fact Follow Up Viral Load</ID>
       <Partitions>
-        <Partition dwd:design-time-name="97d359ee-b695-4287-a035-c694c1826591">
+        <Partition dwd:design-time-name="929f2079-b232-4d0c-b9f1-dad8f78485c2">
           <ID>Fact Follow Up Viral Load</ID>
           <Name>Fact Follow Up Viral Load</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="56e34b18-5d89-42e7-990f-027dce9294e2">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1d4be5a9-9445-4eb3-9af0-6385950936a3">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactFollowUpViralLoad</TableID>
           </Source>
@@ -64,14 +84,14 @@
     <MeasureGroup>
       <ID>Fact HIV Cascade</ID>
       <Partitions>
-        <Partition dwd:design-time-name="97cc312f-b355-4f11-8215-f7a5403870a3">
+        <Partition dwd:design-time-name="50b1b90a-a9f4-45e4-8be9-3e83ce14cf5a">
           <ID>Fact HIV Cascade</ID>
           <Name>Fact HIV Cascade</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dd99fdd2-2dc1-4083-8938-8399b5b930b9">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7c37d30a-facc-4f80-b618-553c66e24614">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactHIVCascade</TableID>
           </Source>
@@ -84,14 +104,14 @@
     <MeasureGroup>
       <ID>Fact Initial CD4</ID>
       <Partitions>
-        <Partition dwd:design-time-name="06517aaa-a0d9-4a1a-8310-2cf44d185cbd">
+        <Partition dwd:design-time-name="141e194c-9969-4ada-aa45-86b20caf9bc1">
           <ID>Fact Initial CD4</ID>
           <Name>Fact Initial CD4</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7d23323b-5afc-4f57-b520-3c63afc4d95e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="abced7b0-5b94-4429-88b1-8d279b908f88">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactInitialCD4</TableID>
           </Source>
@@ -104,14 +124,14 @@
     <MeasureGroup>
       <ID>Fact Initial Viral Load</ID>
       <Partitions>
-        <Partition dwd:design-time-name="04ab2815-e8fc-40e4-8e12-8daffbe3660b">
+        <Partition dwd:design-time-name="4073852a-7b4e-4f83-a9a7-d967eec3b28d">
           <ID>Fact Initial Viral Load</ID>
           <Name>Fact Initial Viral Load</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c21da5fe-ad18-43d1-80d9-609d042501fe">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="eb3c2e57-e07d-4c87-87fd-e1a773045c5c">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactInitialViralLoad</TableID>
           </Source>
@@ -124,14 +144,14 @@
     <MeasureGroup>
       <ID>Fact Maternal History</ID>
       <Partitions>
-        <Partition dwd:design-time-name="48f4a65a-0cd3-4147-a333-b2690d07afab">
+        <Partition dwd:design-time-name="fd81787c-f6ee-4c25-9f25-ad6850425262">
           <ID>Fact Maternal History</ID>
           <Name>Fact Maternal History</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="22892d02-0115-4bbe-8285-c58825a7741b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="24612fe8-6923-4626-9dd3-b0d252f633af">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactMaternalHistory</TableID>
           </Source>
@@ -144,14 +164,14 @@
     <MeasureGroup>
       <ID>Fact On Art</ID>
       <Partitions>
-        <Partition dwd:design-time-name="583a762b-ddb5-4c1e-b12c-57df7b575305">
+        <Partition dwd:design-time-name="d90c9f5d-7e95-47b7-b436-4ec56eac818b">
           <ID>Fact On Art</ID>
           <Name>Fact On Art</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a4aa2ba6-4548-4fd9-81f3-aaceb57c7563">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7b0bb077-c16e-4f9f-a9d7-66968152599e">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactOnArt</TableID>
           </Source>
@@ -164,14 +184,14 @@
     <MeasureGroup>
       <ID>Fact Stopped ART</ID>
       <Partitions>
-        <Partition dwd:design-time-name="e9f9ac0e-2be9-467c-8ca1-6e6dee6d5684">
+        <Partition dwd:design-time-name="9d873c9d-83e3-4e58-ba36-26126f512587">
           <ID>Fact Stopped ART</ID>
           <Name>Fact Stopped ART</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e8c350ea-d2fc-43a3-8db7-595621b91f61">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="aae5545c-ba32-46f7-81c4-dd927a141beb">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactStoppedART</TableID>
           </Source>
@@ -184,14 +204,14 @@
     <MeasureGroup>
       <ID>Fact Transfer In</ID>
       <Partitions>
-        <Partition dwd:design-time-name="faa31abb-d30d-4afd-8dc9-68fc2a0ca843">
+        <Partition dwd:design-time-name="d51cf920-91b9-41a4-9eb1-ac44c966fd01">
           <ID>Fact Transfer In</ID>
           <Name>Fact Transfer In</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ede08b22-1f0c-4065-9f98-d1f6d92a03c4">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7f0f1685-6f26-4763-bda1-135750c1b76a">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactTransferIn</TableID>
           </Source>
@@ -204,14 +224,14 @@
     <MeasureGroup>
       <ID>Fact Transfer Out</ID>
       <Partitions>
-        <Partition dwd:design-time-name="994d0361-c64e-4913-8ab8-38c3e620fb44">
+        <Partition dwd:design-time-name="e9c18a1f-97ac-41f7-bf6e-575b5e2dd0e7">
           <ID>Fact Transfer Out</ID>
           <Name>Fact Transfer Out</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f26442a9-8d2f-4eeb-8921-edf3ac24ee6c">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a6a287b8-b2dc-45b0-9414-f1802d09b908">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactTransferOut</TableID>
           </Source>
@@ -224,14 +244,14 @@
     <MeasureGroup>
       <ID>Fact Visit</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d5f86856-2158-46cd-ab71-312b2361b083">
+        <Partition dwd:design-time-name="33b14faf-d6dd-4566-816f-3f4dc12b38cb">
           <ID>Fact Visit</ID>
           <Name>Fact Visit</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3143b4e5-40a7-4f39-b55c-6dbdece829f0">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f9845165-4ee4-460a-8ef4-d3fa3cae34e6">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactVisit</TableID>
           </Source>
@@ -244,14 +264,14 @@
     <MeasureGroup>
       <ID>Fact Vitals</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b4424f6e-3041-4892-bc65-554df357837d">
+        <Partition dwd:design-time-name="cd7336d4-2173-428f-992e-858faf5df9d4">
           <ID>Fact Vitals</ID>
           <Name>Fact Vitals</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="65158aae-bd26-4d34-8667-3a4daeaa5aa3">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5703702e-53ae-4e20-ab00-34014a2fd42d">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactVitals</TableID>
           </Source>
@@ -264,14 +284,14 @@
     <MeasureGroup>
       <ID>Fact Who Staging</ID>
       <Partitions>
-        <Partition dwd:design-time-name="68b221ca-910e-4890-9292-85eb4998cdfb">
+        <Partition dwd:design-time-name="7c3a431e-003b-4df8-bb07-c117b2230df0">
           <ID>Fact Who Staging</ID>
           <Name>Fact Who Staging</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6c5ad30f-574e-47ae-91a8-4f8fd1607d02">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="32b76220-e225-49c4-84e0-0399bf418319">
             <DataSourceViewID>CBS_DW</DataSourceViewID>
             <TableID>dbo_FactWhoStaging</TableID>
           </Source>

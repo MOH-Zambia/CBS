@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="54f3aab7-47fe-4ec5-9eb0-7753a953ee00" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Dim Pregnancy Outcome</ID>
-  <Name>Dim Pregnancy Outcome</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7e983796-65ef-4039-9eff-42f145a91fa9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Condition</ID>
+  <Name>Dim Condition</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,28 +42,26 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7427e8ac-c287-4ea8-abda-333f8c4311c8">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b4d5ea2c-2898-459a-b2bd-95ddf0404305">
     <DataSourceViewID>CBS_DW</DataSourceViewID>
   </Source>
-  <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="2902da65-327d-4617-8678-37b52e19b42b">
+  <ErrorConfiguration dwd:design-time-name="da0286b4-d495-4749-b429-a74bad0345d0">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="34e6800e-afa1-4111-a4d0-369c6dfd398e">
-      <ID>Pregnancy Outcome Key</ID>
-      <Name>Pregnancy Outcome Key</Name>
+    <Attribute dwd:design-time-name="6b6049c9-da9e-4923-9d20-e649231bd642">
+      <ID>Condition Key</ID>
+      <Name>Condition Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="08946c17-b36d-4f21-bee3-a01c8f93dbeb">
+        <KeyColumn dwd:design-time-name="a2869e81-6467-4113-9635-138986a7607a">
           <DataType>Integer</DataType>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c32d3f9-bfa9-4345-8219-1f97e02ed5b1">
-            <TableID>dbo_DimPregnancyOutcome</TableID>
-            <ColumnID>PregnancyOutcomeKey</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1842b69-bffa-4fdd-aebc-d59e9e7408dd">
+            <TableID>dbo_DimCondition</TableID>
+            <ColumnID>ConditionKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
